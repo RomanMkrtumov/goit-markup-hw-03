@@ -8,6 +8,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 h1,
@@ -296,6 +297,10 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+
+.portfolio-list-item {
+  row-gap: 48px;
 }
 
 .portfolio-list {
