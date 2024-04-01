@@ -313,7 +313,8 @@ a {
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 
 }
@@ -322,7 +323,7 @@ a {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
+  padding: 32px 16px 32px 16px;
 }
 
 /* .portfolio-list-item {
