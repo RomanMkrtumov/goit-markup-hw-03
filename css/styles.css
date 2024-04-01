@@ -206,6 +206,7 @@ a {
 .advantages-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .advantages-list-item {
@@ -219,12 +220,9 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-
-}
-
-.advantages-title {
   margin-bottom: 8px;
 }
+
 
 .advantages-text {
   font-size: 16px;
@@ -253,6 +251,7 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .team-list-div {
@@ -309,6 +308,7 @@ a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-div {
