@@ -84,6 +84,8 @@ a {
 
 .header-list-item {}
 
+
+
 .header-list-link {
   padding: 24px 0;
   font-weight: 500;
@@ -91,7 +93,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+  display: block;
+  /* Обращать внимание display в  следущих проэктов   */
 }
 
 .header-list-link:hover {
@@ -203,10 +206,6 @@ a {
 .advantages {
   display: flex;
 }
-
-
-
-
 
 .advantages-list {
   display: flex;
